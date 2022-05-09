@@ -5,18 +5,23 @@ import Word from "./components/Word";
 import Panel from "./components/Panel";
 import Button from "./components/Button";
 import { Fireworks } from "fireworks-js/dist/react";
-import { modes, stems, persons, coordination, random } from "./utils";
 import Modal from "./components/Modal";
+import {
+  modes,
+  stems,
+  persons,
+  coordination,
+  random,
+  imperativePersons,
+} from "./utils";
 
 function App() {
   const [mode, setMode] = useState(random(modes));
-  const [personID, setPersonID] = useState(random(persons));
+  const [personID, setPersonID] = useState(mode === "Emir Kipi" ? random(imperativePersons) : random(persons));
   const [stem, setStem] = useState(random(stems));
   const [isFireworksEnabled, setIsFireworksEnabled] = useState(false);
   const [isModalVisible, setIsModalVisible] = useState(false);
-  const [modalProps, setModalProps] = useState({
-    visibilityHandler: setIsModalVisible,
-  });
+  const [modalProps, setModalProps] = useState({ visibilityHandler: setIsModalVisible });
   const person = coordination[personID];
   const panelProps = {
     mode: mode,
