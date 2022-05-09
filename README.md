@@ -1,6 +1,6 @@
 # Verbingo
 
-Verbingo is a little minigame to help you to learn how to conjugate verbs in Turkish.
+Verbingo is a little minigame to help you learn how to conjugate verbs in Turkish.
 
 ## Table of Contents
 
