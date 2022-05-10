@@ -11,19 +11,33 @@ import {
 
 function Button(props) {
   const colorVariant = props.colorVariant;
-  const classList = [
+  const colors = [];
+  const classes = [
     props.className,
-    `bg-${colorVariant}-500`,
-    `hover:bg-${colorVariant}-400`,
     "text-white",
     "font-bold",
     "py-2",
     "px-4",
     "border-b-4",
-    `border-${colorVariant}-700`,
-    `hover:border-${colorVariant}-500`,
     "rounded",
   ];
+
+  if (colorVariant === "green") {
+    colors.push(
+      "bg-green-500",
+      "hover:bg-green-400",
+      "border-green-700",
+      "hover:border-green-500"
+    );
+  }
+  if (colorVariant === "yellow") {
+    colors.push(
+      "bg-yellow-500",
+      "hover:bg-yellow-400",
+      "border-yellow-700",
+      "hover:border-yellow-500"
+    );
+  }
 
   const skip = () => {
     props.modeHandler(random(modes));
@@ -69,7 +83,7 @@ function Button(props) {
 
   return (
     <motion.button
-      className={classList.join(" ")}
+      className={classes.concat(colors).join(" ")}
       id={props.id}
       onClick={clickHandler}
       whileTap={{ scale: 1.1 }}
