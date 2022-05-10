@@ -10,18 +10,18 @@ import {
 } from "../utils";
 
 function Button(props) {
-  const colorVariant = props.colorVariant;
+  
   const classList = [
     props.className,
-    `bg-${colorVariant}-500`,
-    `hover:bg-${colorVariant}-400`,
+    `bg-yellow-500`,
+    `hover:bg-yellow-400`,
     "text-white",
     "font-bold",
     "py-2",
     "px-4",
     "border-b-4",
-    `border-${colorVariant}-700`,
-    `hover:border-${colorVariant}-500`,
+    `border-yellow-700`,
+    `hover:border-yellow-500`,
     "rounded",
   ];
 
