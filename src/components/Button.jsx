@@ -72,7 +72,7 @@ function Button(props) {
       className={classList.join(" ")}
       id={props.id}
       onClick={clickHandler}
-      whileTap={{ scale: 1.2 }}
+      whileTap={{ scale: 1.1 }}
     >
       {props.children}
     </motion.button>
