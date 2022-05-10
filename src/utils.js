@@ -120,6 +120,14 @@ export const conjugations = {
       12: "çıktınız",
       13: "çıktılar",
     },
+    aç: {
+      1: "açtım",
+      2: "açtın",
+      3: "açtı",
+      11: "açtık",
+      12: "açtınız",
+      13: "açtılar",
+    },
   },
   pastV2: {
     yap: {
@@ -241,6 +249,14 @@ export const conjugations = {
       11: "çıkmışız",
       12: "çıkmışsınız",
       13: "çıkmışlar",
+    },
+    aç: {
+      1: "açmışım",
+      2: "açmışsın",
+      3: "açmış",
+      11: "açmışız",
+      12: "açmışsınız",
+      13: "açmışlar",
     },
   },
   present: {
@@ -364,6 +380,14 @@ export const conjugations = {
       12: "çıkarsınız",
       13: "çıkarlar",
     },
+    aç: {
+      1: "açarım",
+      2: "açarsın",
+      3: "açar",
+      11: "açarız",
+      12: "açarsınız",
+      13: "açarlar",
+    },
   },
   continiuous: {
     yap: {
@@ -485,6 +509,14 @@ export const conjugations = {
       11: "çıkıyoruz",
       12: "çıkıyorsunuz",
       13: "çıkıyorlar",
+    },
+    aç: {
+      1: "açıyorum",
+      2: "açıyorsun",
+      3: "açıyor",
+      11: "açıyoruz",
+      12: "açıyorsunuz",
+      13: "açıyorlar",
     },
   },
   future: {
@@ -608,6 +640,14 @@ export const conjugations = {
       12: "çıkacaksınız",
       13: "çıkacaklar",
     },
+    aç: {
+      1: "açacağım",
+      2: "açacaksın",
+      3: "açacak",
+      11: "açacağız",
+      12: "açacaksınız",
+      13: "açacaklar",
+    },
   },
   optative: {
     yap: {
@@ -729,6 +769,14 @@ export const conjugations = {
       11: "çıkalım",
       12: "çıkasınız",
       13: "çıkalar",
+    },
+    aç: {
+      1: "açayım",
+      2: "açasın",
+      3: "aça",
+      11: "açalım",
+      12: "açasınız",
+      13: "açalar",
     },
   },
   conditional: {
@@ -852,6 +900,14 @@ export const conjugations = {
       12: "çıksanız",
       13: "çıksalar",
     },
+    aç: {
+      1: "açsam",
+      2: "açsan",
+      3: "açsa",
+      11: "açsak",
+      12: "açsanız",
+      13: "açsalar",
+    },
   },
   necessitate: {
     yap: {
@@ -974,6 +1030,14 @@ export const conjugations = {
       12: "çıkmalısınız",
       13: "çıkmalılar",
     },
+    aç: {
+      1: "açmalıyım",
+      2: "açmalısın",
+      3: "açmalı",
+      11: "açmalıyız",
+      12: "açmalısınız",
+      13: "açmalılar",
+    },
   },
   imperative: {
     yap: {
@@ -1066,6 +1130,12 @@ export const conjugations = {
       12: "çıkın",
       13: "çıksınlar",
     },
+    aç: {
+      2: "aç",
+      3: "açsın",
+      12: "açın",
+      13: "açsınlar",
+    },
   },
 };
 
@@ -1117,6 +1187,7 @@ export const stems = [
   "oku",
   "bul",
   "çık",
+  "aç",
 ];
 
 export const random = (array) => {
