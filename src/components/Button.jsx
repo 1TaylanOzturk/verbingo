@@ -13,15 +13,15 @@ function Button(props) {
   
   const classList = [
     props.className,
-    `bg-yellow-500`,
-    `hover:bg-yellow-400`,
+    `bg-green-500`,
+    `hover:bg-green-400`,
     "text-white",
     "font-bold",
     "py-2",
     "px-4",
     "border-b-4",
-    `border-yellow-700`,
-    `hover:border-yellow-500`,
+    `border-green-700`,
+    `hover:border-green-500`,
     "rounded",
   ];
 
