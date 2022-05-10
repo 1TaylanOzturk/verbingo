@@ -71,11 +71,11 @@ Else, it's going to throw a modal to describe you what's wrong.
 
 ---
 
-## TODO
+## TODOs
 
-- Tailwindcss has a problem about its classes when they passed into a string via variables as mentioned in ![this SO topic](https://stackoverflow.com/questions/70477538/tailwind-not-working-when-using-variables-react-js). The buttons don't look as they should so this must be solved.
+- [ ] Tailwindcss has a problem about its classes when they passed into a string via variables as mentioned in ![this SO topic](https://stackoverflow.com/questions/70477538/tailwind-not-working-when-using-variables-react-js). The buttons don't look as they should so this must be solved.
 
-- Create a better color scheme.
+- [ ] Create a better color scheme.
 
 ---
 
