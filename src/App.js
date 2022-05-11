@@ -46,7 +46,7 @@ function App() {
 
   return (
     <>
-      <div className="mt-[10px] lg:mt-[100px]">
+      <div className="mt-[2rem] lg:mt-[5rem]">
         <Flex>
           <Fireworks
             enabled={isFireworksEnabled}
@@ -60,7 +60,7 @@ function App() {
         <Flex>
           <Word>{stem}</Word>
         </Flex>
-        <hr className="w-[100%] lg:w-[40%] mr-auto ml-auto" />
+        <hr className="w-[100%] lg:w-[60%] mr-auto ml-auto" />
         <Panel {...panelProps}>
           <Button className="mr-auto" skip colorVariant="yellow">
             Skip
