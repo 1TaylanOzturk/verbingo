@@ -7,6 +7,7 @@ import {
   modes,
   persons,
   stems,
+  imperativePersons,
 } from "../utils";
 
 function Button(props) {
@@ -40,8 +41,9 @@ function Button(props) {
   }
 
   const skip = () => {
-    props.modeHandler(random(modes));
-    props.personIDHandler(random(persons));
+    const mode = random(modes);
+    props.modeHandler(mode);
+    props.personIDHandler(mode === "Emir Kipi" ? random(imperativePersons) : random(persons));
     props.stemHandler(random(stems));
     document.getElementById("input").value = "";
     document.getElementById("input").focus();
