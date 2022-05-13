@@ -176,6 +176,14 @@ export const conjugations = {
       12: "giydiniz",
       13: "giydiler",
     },
+    bekle: {
+      1: "bekledim",
+      2: "bekledin",
+      3: "bekledi",
+      11: "bekledik",
+      12: "beklediniz",
+      13: "beklediler",
+    },
   },
   pastV2: {
     yap: {
@@ -353,6 +361,14 @@ export const conjugations = {
       11: "giymişiz",
       12: "giymişsiniz",
       13: "giymişler",
+    },
+    bekle: {
+      1: "beklemişim",
+      2: "beklemişsin",
+      3: "beklemiş",
+      11: "beklemişiz",
+      12: "beklemişsiniz",
+      13: "beklemişler",
     },
   },
   present: {
@@ -532,6 +548,14 @@ export const conjugations = {
       12: "giyersiniz",
       13: "giyerler",
     },
+    bekle: {
+      1: "beklerim",
+      2: "beklersin",
+      3: "bekler",
+      11: "bekleriz",
+      12: "beklersiniz",
+      13: "beklerler",
+    },
   },
   continiuous: {
     yap: {
@@ -709,6 +733,14 @@ export const conjugations = {
       11: "giyiyoruz",
       12: "giyiyorsunuz",
       13: "giyiyorlar",
+    },
+    bekle: {
+      1: "bekliyorum",
+      2: "bekliyorsun",
+      3: "bekliyor",
+      11: "bekliyoruz",
+      12: "bekliyorsunuz",
+      13: "bekliyorlar",
     },
   },
   future: {
@@ -888,6 +920,14 @@ export const conjugations = {
       12: "giyeceksiniz",
       13: "giyecekler",
     },
+    bekle: {
+      1: "bekleyeceğim",
+      2: "bekleyeceksin",
+      3: "bekleyecek",
+      11: "bekleyeceğiz",
+      12: "bekleyeceksiniz",
+      13: "bekleyecekler",
+    },
   },
   optative: {
     yap: {
@@ -1063,7 +1103,16 @@ export const conjugations = {
       2: "giyesin",
       3: "giye",
       11: "giyelim",
+      12: "giyesiniz",
       13: "giyeler",
+    },
+    bekle: {
+      1: "bekleyeyim",
+      2: "bekleyesin",
+      3: "bekleye",
+      11: "bekleyelim",
+      12: "bekleyesiniz",
+      13: "bekleyeler",
     },
   },
   conditional: {
@@ -1243,6 +1292,14 @@ export const conjugations = {
       12: "giyseniz",
       13: "giyseler",
     },
+    bekle: {
+      1: "beklesem",
+      2: "beklesen",
+      3: "beklese",
+      11: "beklesek",
+      12: "bekleseniz",
+      13: "bekleseler",
+    },
   },
   necessitate: {
     yap: {
@@ -1421,6 +1478,14 @@ export const conjugations = {
       12: "giymelisiniz",
       13: "giymeliler",
     },
+    bekle: {
+      1: "beklemeliyim",
+      2: "beklemelisin",
+      3: "beklemeli",
+      11: "beklemeliyiz",
+      12: "beklemelisiniz",
+      13: "beklemeliler",
+    },
   },
   imperative: {
     yap: {
@@ -1555,6 +1620,12 @@ export const conjugations = {
       12: "giyin",
       13: "giysinler",
     },
+    bekle: {
+      2: "bekle",
+      3: "beklesin",
+      12: "bekleyin",
+      13: "beklesinler",
+    },
   },
 };
 
@@ -1613,6 +1684,7 @@ export const stems = [
   "ağla",
   "tut",
   "giy",
+  "bekle",
 ];
 
 export const random = (array) => {
