@@ -184,6 +184,22 @@ export const conjugations = {
       12: "beklediniz",
       13: "beklediler",
     },
+    dön: {
+      1: "döndüm",
+      2: "döndün",
+      3: "döndü",
+      11: "döndük",
+      12: "döndünüz",
+      13: "döndüler",
+    },
+    kır: {
+      1: "kırdım",
+      2: "kırdın",
+      3: "kırdı",
+      11: "kırdık",
+      12: "kırdınız",
+      13: "kırdılar",
+    },
   },
   pastV2: {
     yap: {
@@ -369,6 +385,22 @@ export const conjugations = {
       11: "beklemişiz",
       12: "beklemişsiniz",
       13: "beklemişler",
+    },
+    dön: {
+      1: "dönmüşüm",
+      2: "dönmüşsün",
+      3: "dönmüş",
+      11: "dönmüşüz",
+      12: "dönmüşsünüz",
+      13: "dönmüşler",
+    },
+    kır: {
+      1: "kırmışım",
+      2: "kırmışsın",
+      3: "kırmış",
+      11: "kırmışız",
+      12: "kırmışsınız",
+      13: "kırmışlar",
     },
   },
   present: {
@@ -556,6 +588,22 @@ export const conjugations = {
       12: "beklersiniz",
       13: "beklerler",
     },
+    dön: {
+      1: "dönerim",
+      2: "dönersin",
+      3: "döner",
+      11: "döneriz",
+      12: "dönersiniz",
+      13: "dönerler",
+    },
+    kır: {
+      1: "kırarım",
+      2: "kırarsın",
+      3: "kırar",
+      11: "kırarız",
+      12: "kırarsınız",
+      13: "kırarlar",
+    },
   },
   continiuous: {
     yap: {
@@ -741,6 +789,22 @@ export const conjugations = {
       11: "bekliyoruz",
       12: "bekliyorsunuz",
       13: "bekliyorlar",
+    },
+    dön: {
+      1: "dönüyorum",
+      2: "dönüyorsun",
+      3: "dönüyor",
+      11: "dönüyoruz",
+      12: "dönüyorsunuz",
+      13: "dönüyorlar",
+    },
+    kır: {
+      1: "kırıyorum",
+      2: "kırıyorsun",
+      3: "kırıyor",
+      11: "kırıyoruz",
+      12: "kırıyorsunuz",
+      13: "kırıyorlar",
     },
   },
   future: {
@@ -928,6 +992,22 @@ export const conjugations = {
       12: "bekleyeceksiniz",
       13: "bekleyecekler",
     },
+    dön: {
+      1: "döneceğim",
+      2: "döneceksin",
+      3: "dönecek",
+      11: "döneceğiz",
+      12: "döneceksiniz",
+      13: "dönecekler",
+    },
+    kır: {
+      1: "kıracağım",
+      2: "kıracaksın",
+      3: "kıracak",
+      11: "kıracağız",
+      12: "kıracaksınız",
+      13: "kıracaklar",
+    },
   },
   optative: {
     yap: {
@@ -1113,6 +1193,22 @@ export const conjugations = {
       11: "bekleyelim",
       12: "bekleyesiniz",
       13: "bekleyeler",
+    },
+    dön: {
+      1: "döneyim",
+      2: "dönesin",
+      3: "döne",
+      11: "dönelim",
+      12: "dönesiniz",
+      13: "döneler",
+    },
+    kır: {
+      1: "kırayım",
+      2: "kırasın",
+      3: "kıra",
+      11: "kıralım",
+      12: "kırasınız",
+      13: "kıralar",
     },
   },
   conditional: {
@@ -1300,6 +1396,22 @@ export const conjugations = {
       12: "bekleseniz",
       13: "bekleseler",
     },
+    dön: {
+      1: "dönsem",
+      2: "dönsen",
+      3: "dönse",
+      11: "dönsek",
+      12: "dönseniz",
+      13: "dönseler",
+    },
+    kır: {
+      1: "kırsam",
+      2: "kırsan",
+      3: "kırsa",
+      11: "kırsak",
+      12: "kırsanız",
+      13: "kırsalar",
+    },
   },
   necessitate: {
     yap: {
@@ -1486,6 +1598,22 @@ export const conjugations = {
       12: "beklemelisiniz",
       13: "beklemeliler",
     },
+    dön: {
+      1: "dönmeliyim",
+      2: "dönmelisin",
+      3: "dönmeli",
+      11: "dönmeliyiz",
+      12: "dönmelisiniz",
+      13: "dönmeliler",
+    },
+    kır: {
+      1: "kırmalıyım",
+      2: "kırmalısın",
+      3: "kırmalı",
+      11: "kırmalıyız",
+      12: "kırmalısınız",
+      13: "kırmalılar",
+    },
   },
   imperative: {
     yap: {
@@ -1626,6 +1754,18 @@ export const conjugations = {
       12: "bekleyin",
       13: "beklesinler",
     },
+    dön: {
+      2: "dön",
+      3: "dönsün",
+      12: "dönün",
+      13: "dönsünler",
+    },
+    kır: {
+      2: "kır",
+      3: "kırsın",
+      12: "kırın",
+      13: "kırsınlar",
+    },
   },
 };
 
@@ -1685,6 +1825,8 @@ export const stems = [
   "tut",
   "giy",
   "bekle",
+  "dön",
+  "kır",
 ];
 
 export const random = (array) => {
