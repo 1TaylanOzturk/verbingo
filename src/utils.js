@@ -200,6 +200,22 @@ export const conjugations = {
       12: "kırdınız",
       13: "kırdılar",
     },
+    ilerle: {
+      1: "ilerledim",
+      2: "ilerledin",
+      3: "ilerledi",
+      11: "ilerledik",
+      12: "ilerlediniz",
+      13: "ilerlediler",
+    },
+    bırak: {
+      1: "bıraktım",
+      2: "bıraktın",
+      3: "bıraktı",
+      11: "bıraktık",
+      12: "bıraktınız",
+      13: "bıraktılar",
+    },
   },
   pastV2: {
     yap: {
@@ -401,6 +417,22 @@ export const conjugations = {
       11: "kırmışız",
       12: "kırmışsınız",
       13: "kırmışlar",
+    },
+    ilerle: {
+      1: "ilerlemişim",
+      2: "ilerlemişsin",
+      3: "ilerlemiş",
+      11: "ilerlemişiz",
+      12: "ilerlemişsiniz",
+      13: "ilerlemişler",
+    },
+    bırak: {
+      1: "bırakmışım",
+      2: "bırakmışsın",
+      3: "bırakmış",
+      11: "bırakmışız",
+      12: "bırakmışsınız",
+      13: "bırakmışlar",
     },
   },
   present: {
@@ -604,6 +636,22 @@ export const conjugations = {
       12: "kırarsınız",
       13: "kırarlar",
     },
+    ilerle: {
+      1: "ilerlerim",
+      2: "ilerlersin",
+      3: "ilerler",
+      11: "ilerleriz",
+      12: "ilerlersiniz",
+      13: "ilerlerler",
+    },
+    bırak: {
+      1: "bırakırım",
+      2: "bırakırsın",
+      3: "bırakır",
+      11: "bırakırız",
+      12: "bırakırsınız",
+      13: "bırakırlar",
+    },
   },
   continiuous: {
     yap: {
@@ -805,6 +853,22 @@ export const conjugations = {
       11: "kırıyoruz",
       12: "kırıyorsunuz",
       13: "kırıyorlar",
+    },
+    ilerle: {
+      1: "ilerliyorum",
+      2: "ilerliyorsun",
+      3: "ilerliyor",
+      11: "ilerliyoruz",
+      12: "ilerliyorsunuz",
+      13: "ilerliyorlar",
+    },
+    bırak: {
+      1: "bırakıyorum",
+      2: "bırakıyorsun",
+      3: "bırakıyor",
+      11: "bırakıyoruz",
+      12: "bırakıyorsunuz",
+      13: "bırakıyorlar",
     },
   },
   future: {
@@ -1008,6 +1072,22 @@ export const conjugations = {
       12: "kıracaksınız",
       13: "kıracaklar",
     },
+    ilerle: {
+      1: "ilerleyeceğim",
+      2: "ilerleyeceksin",
+      3: "ilerleyecek",
+      11: "ilerleyeceğiz",
+      12: "ilerleyeceksiniz",
+      13: "ilerleyecekler",
+    },
+    bırak: {
+      1: "bırakacağım",
+      2: "bırakacaksın",
+      3: "bırakacak",
+      11: "bırakacağız",
+      12: "bırakacaksınız",
+      13: "bırakacaklar",
+    },
   },
   optative: {
     yap: {
@@ -1209,6 +1289,22 @@ export const conjugations = {
       11: "kıralım",
       12: "kırasınız",
       13: "kıralar",
+    },
+    ilerle: {
+      1: "ilerleyeyim",
+      2: "ilerleyesin",
+      3: "ilerleye",
+      11: "ilerleyelim",
+      12: "ilerleyesiniz",
+      13: "ilerleyeler",
+    },
+    bırak: {
+      1: "bırakayım",
+      2: "bırakasın",
+      3: "bıraka",
+      11: "bırakalım",
+      12: "bırakasınız",
+      13: "bırakalar",
     },
   },
   conditional: {
@@ -1412,6 +1508,22 @@ export const conjugations = {
       12: "kırsanız",
       13: "kırsalar",
     },
+    ilerle: {
+      1: "ilerlesem",
+      2: "ilerlesen",
+      3: "ilerlese",
+      11: "ilerlesek",
+      12: "ilerleseniz",
+      13: "ilerleseler",
+    },
+    bırak: {
+      1: "bıraksam",
+      2: "bıraksan",
+      3: "bıraksa",
+      11: "bıraksak",
+      12: "bıraksanız",
+      13: "bıraksalar",
+    },
   },
   necessitate: {
     yap: {
@@ -1614,6 +1726,22 @@ export const conjugations = {
       12: "kırmalısınız",
       13: "kırmalılar",
     },
+    ilerle: {
+      1: "ilerlemeliyim",
+      2: "ilerlemelisin",
+      3: "ilerlemeli",
+      11: "ilerlemeliyiz",
+      12: "ilerlemelisiniz",
+      13: "ilerlemeliler",
+    },
+    bırak: {
+      1: "bırakmalıyım",
+      2: "bırakmalısın",
+      3: "bırakmalı",
+      11: "bırakmalıyız",
+      12: "bırakmalısınız",
+      13: "bırakmalılar",
+    },
   },
   imperative: {
     yap: {
@@ -1766,6 +1894,18 @@ export const conjugations = {
       12: "kırın",
       13: "kırsınlar",
     },
+    ilerle: {
+      2: "ilerle",
+      3: "ilerlesin",
+      12: "ilerleyin",
+      13: "ilerlesinler",
+    },
+    bırak: {
+      2: "bırak",
+      3: "bıraksın",
+      12: "bırakın",
+      13: "bıraksınlar",
+    },
   },
 };
 
@@ -1827,6 +1967,8 @@ export const stems = [
   "bekle",
   "dön",
   "kır",
+  "ilerle",
+  "bırak",
 ];
 
 export const random = (array) => {
